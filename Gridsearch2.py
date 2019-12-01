@@ -23,20 +23,20 @@ parameters = [
         'classifier__fit_prior': [True, False],
     },
 
-    #{
-        #'classifier': [DecisionTreeClassifier()],
-        #'classifier__max_depth' : [3, 5, 10, 15, 20, 25, 30],
-        #'classifier__criterion' : ['entropy', 'gini'],
-        #'classifier__min_samples_leaf' : [3, 5, 10, 15, 20, 25],
-        #'classifier__max_features' : [3, 4, 6, 8],
+    {
+        'classifier': [DecisionTreeClassifier()],
+        'classifier__max_depth' : [3, 5, 10, 15, 20, 25, 30],
+        'classifier__criterion' : ['entropy', 'gini'],
+        'classifier__min_samples_leaf' : [3, 5, 10, 15, 20, 25],
+        'classifier__max_features' : [3, 4, 6, 8],
 
-    #},
-        #{
-        #'classifier': [LogisticRegression()],
-        #'classifier__C': [1.0, 1.5, 2.0, 2.5],
-        #'classifier__max_iter': [10, 25, 50, 100, 200, 300],
-        #'classifier__solver': ['liblinear'],
-    #},
+    },
+        {
+        'classifier': [LogisticRegression()],
+        'classifier__C': [1.0, 1.5, 2.0, 2.5],
+        'classifier__max_iter': [10, 25, 50, 100, 200, 300],
+        'classifier__solver': ['liblinear'],
+    },
 
 ]
 
